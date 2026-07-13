@@ -1,0 +1,77 @@
+.nevbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 40px;
+    background-color: rgb(236, 235, 233);
+    border-bottom: 1px solid #eee;
+
+}
+.logo {
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.logo-icon{
+    background-color: #1a1a2e;
+    color:white;
+    font-size:12px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.logo-text{
+    font-weight:700;
+    font-size:15px;
+    line-height:1.2;
+    color:#1a1a2e;
+    font-weight: bold;
+}
+.nav-fix{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+.nav-fix a{
+    text-decoration: none;
+    color: #333;
+    font-size:15px;
+}
+.common-btn{
+    background-color: #2f5bff;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius: 8px;
+    font-weight:600;
+    cursor:pointer;
+}
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("./assets/banner.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+            
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:60px 20px;
+}
+.h-t {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.h-st {
+  color: #e0e0e0;
+  font-size: 16px;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
