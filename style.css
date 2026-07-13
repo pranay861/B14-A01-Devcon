@@ -75,3 +75,45 @@
   line-height: 1.6;
   margin-bottom: 30px;
 }
+.s-t{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+  max-width: 900px;
+  margin:0px;
+}
+.s-c{
+    border:1px solid #eee;
+    border-radius:8px;
+
+}
+.s-photo{
+    width: 100%;
+    hight:200px;
+    object-fit:cover;
+    display: block;
+}
+.s-info{
+    padding: 20px;
+}
+.s-tag{
+    color: #062fc4;
+    font-size:10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.s-n{
+    font-size:20px;
+    font-weight: 600;
+    margin: 8px 0 4px;
+}
+.s-r{
+    color: black;
+    font-size:14px;
+}
